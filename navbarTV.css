@@ -1,0 +1,38 @@
+.navbar-brand img {
+    height: 44px;
+}
+
+.box {
+    width: 40px;
+    height: 20px;
+    background: #6a70e2;
+    border-radius: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.miniBox {
+    width: 16px;
+    height: 16px;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
+
+.custome-btn1 {
+    background-color: #5d5dfa !important;
+    color: white !important;
+    border-radius: 4px;
+    border: none;
+    font-weight: 500;
+    padding: 8px 24px;
+    transition: all 0.2s ease;
+}
+
+.custome-btn1:hover {
+    background-color: #4b4bca;
+    color: white !important;
+    transform: translateY(-1px);
+}
